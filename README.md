@@ -13,7 +13,7 @@ This is a simple starter project for Node.js applications.
    node index.js
    ```
 ## Requirements
-- Node.js (v14 or higher recommended)
-- npm (Node Package Manager)
+- Node.js (v20 or higher recommended)
+- npm (Node Package Manager v 11 or higher)
 ## License
 MIT
