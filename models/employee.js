@@ -8,7 +8,8 @@ mongoose.connect(
 });
 const empSchema = new mongoose.Schema({
   empName: String,
-  empPass: String
+  empPass: String,
+  created: {type: Date, default: Date.now }
 },{
     collection:'ftemployees'
 });
