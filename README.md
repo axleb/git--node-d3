@@ -1,19 +1,4 @@
-# Node.js Starter Project
-This is a simple starter project for Node.js applications.
-## Project Structure
-- `index.js` — Main entry point
-- `package.json` — Project metadata and dependencies
-## Getting Started
-1. Install dependencies:
-   ```bash
-   npm install
-   ``` 
-2. Run the application:
-   ```bash
-   node index.js
-   ```
-## Requirements
-- Node.js (v20 or higher recommended)
-- npm (Node Package Manager v 11 or higher)
-## License
-MIT
+# This is the same project from day 02, brought forward to day3
+# The problem is that we got an empty record set after hitting /getemployees
+# and the terminal threw an error since it cannot find supporting files
+# for MongoDB or Mongoose

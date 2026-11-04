@@ -14,9 +14,9 @@ exports.addemployee=function(req, res){
 //
 exports.getemployees = function(req, res){
     let empToFind = req.params.employeeName;    
-    Employee.find({})
+    Employee.find({ empName: empToFind })
     .then(
-        employeeData => res.send(employeeData);
+        employeeData => res.send(employeeData)
     )
     .catch((err)=>{
         res.send(err);
