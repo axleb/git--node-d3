@@ -4,7 +4,8 @@
   "description": "Learning Git",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test:api": "npx --yes newman run postman/git-node-d3.postman_collection.json"
   },
   "keywords": [],
   "author": "",

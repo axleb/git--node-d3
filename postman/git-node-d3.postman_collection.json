@@ -1,0 +1,53 @@
+{
+  "info": {
+    "_postman_id": "27677381-6ede-434d-b135-e840134d55a6",
+    "name": "git-node-d3",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add employee",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"empName\":\"Jane Doe\",\"empPass\":\"fake-pass-123\"}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": {
+          "raw": "http://localhost:8000/addemployee",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["addemployee"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add employee - Mary",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"empName\":\"Mary\",\"empPass\":\"1234\"}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": {
+          "raw": "http://localhost:8000/addemployee",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["addemployee"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
