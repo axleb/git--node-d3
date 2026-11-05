@@ -15,7 +15,7 @@ exports.addemployee=function(req, res){
 };
 //
 exports.getemployees = function(req, res){  
-  Employee.find({})
+  Employee.find({ empName:"Joe" })
   .then(
     employeeData => res.send(employeeData)
   )
