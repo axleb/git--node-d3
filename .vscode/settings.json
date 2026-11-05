@@ -3,6 +3,9 @@
     "/^node index\\.js$/": {
       "approve": true,
       "matchCommandLine": true
-    }
+    },
+    "git fetch": true,
+    "git pull": true,
+    "git push": true
   }
 }
