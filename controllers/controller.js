@@ -23,3 +23,7 @@ exports.getemployees = function(req, res){
     res.send(err);
   })
 };
+
+exports.products = function(req, res){
+  res.send('You are on the products route.');
+};
